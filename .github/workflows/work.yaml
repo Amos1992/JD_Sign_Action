@@ -5,7 +5,7 @@ on:
    branches:
       - master
   schedule:
-    - cron: 54 19 * * *
+    - cron: 06 19 * * *
     
 env:
   JD_COOKIE: ${{ secrets.JD_COOKIE }}
