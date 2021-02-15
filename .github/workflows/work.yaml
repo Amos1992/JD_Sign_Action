@@ -2,7 +2,7 @@ name: JD_Sign_Action
 
 on:
   schedule:
-    - cron: 25 19 * * *
+    - cron: 46 11 * * *
     
 env:
   JD_COOKIE: ${{ secrets.JD_COOKIE }}
